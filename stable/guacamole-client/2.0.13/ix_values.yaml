@@ -15,7 +15,7 @@ service:
     ports:
       main:
         port: 9998
-        targetPort: 80
+        targetPort: 8080
 
 env:
   POSTGRES_DATABASE: "{{ .Values.postgresql.postgresqlDatabase }}"
